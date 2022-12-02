@@ -1,0 +1,14 @@
+{
+  "name": "git-github",
+  "version": "1.0.0",
+  "description": "presentation for git-github",
+  "main": "index.js",
+  "scripts": {
+    "start": "cleaver presentation.md"
+  },
+  "author": "Fab",
+  "license": "ISC",
+  "dependencies": {
+    "cleaver": "^0.8.7"
+  }
+}
