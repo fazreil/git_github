@@ -9,3 +9,6 @@ node_modules
 
 # Generated output for the program
 presentation.html
+
+# ignore mkv files
+vid/*mkv
