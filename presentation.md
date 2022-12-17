@@ -118,7 +118,7 @@ There are 10 types of Version Control System:
 
 ---
 
-# Common philosophy of Version Control System 
+# Common philosophy of Version Control System
 
 ---
 
@@ -131,12 +131,30 @@ There are 10 types of Version Control System:
 
 ---
 
+### Repositories
+
+<video width="640" height="480" controls>
+ <source src="vid/repositories.webm">
+ Your browser does not support the video tag.
+</video>
+
+---
+
 ### Branches and Tags
 
   - Branches are a stream of work.
   - Multiple branches allow work to be done in parallel.
-  - Some branches are meant to be read only, these are called Tags.
+  - Some  snapshot of the code are meant to be read only, these are called Tags.
   - Tags freeze the file at a certain point. the point refers to a commit.
+
+---
+
+### Branches and Tags
+
+<video width="640" height="480" controls>
+  <source src="vid/branches-and-tags.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
 
 ---
 
@@ -144,7 +162,7 @@ There are 10 types of Version Control System:
 
   - Commits are transaction of changes made by an author.
   - A commit may contain one or more changes across the files.
-  - A commit marks a new revision/version that add up to the current branch. 
+  - A commit marks a new revision/version that add up to the current branch.
 
 ---
 
@@ -153,6 +171,18 @@ There are 10 types of Version Control System:
   - List of commits.
   - May show the relation between branches.
   - Useful to show the work done for certain file.
+
+---
+
+### Logs
+
+<img src="img/log-branches.png" alt="log-branches" width="80%"/>
+
+---
+
+### Logs
+
+<img src="img/log-branches-gitkraken.png" alt="log-branches" width="80%"/>
 
 ---
 
