@@ -81,6 +81,25 @@ There are 10 types of Version Control System:
 
 ---
 
+### Difference between Centralized and Distributed VCS
+
+<table>
+    <td>
+      <video width="320" height="240" controls>
+       <source src="vid/versus-centralized.webm">
+       Your browser does not support the video tag.
+      </video>
+    </td>
+    <td>
+      <video width="320" height="240" controls>
+       <source src="vid/versus-distributed.webm">
+       Your browser does not support the video tag.
+      </video>
+    </td>
+</table>
+
+---
+
 # Popular Version Control System
 
 ---
@@ -122,21 +141,24 @@ There are 10 types of Version Control System:
 
 ---
 
-### Repositories
+### Commits
 
-  - Repositories are basically the storage space to place the content.
-  - Repositories shall store files relevant to itself.
-  - Sometimes repositories sharing do happen, then it gets confusing.
-  - A repository is usually invisible to other repositories.
+  - Commits are transaction of changes made by an author.
+  - A commit may contain one or more changes across the files.
+  - A commit marks a new revision/version that add up to the current branch.
 
 ---
 
-### Repositories
+### Anatomy of a commit
 
-<video width="640" height="480" controls>
- <source src="vid/repositories.webm">
- Your browser does not support the video tag.
-</video>
+<table>
+  <td>
+    <img src="img/git-show.png" alt="log-branches" width="80%"/>
+  </td>
+  <td>
+    <img src="img/git-show-gitkraken.png" alt="log-branches" width="80%"/>
+  </td>
+</table>
 
 ---
 
@@ -158,23 +180,21 @@ There are 10 types of Version Control System:
 
 ---
 
-### Commits
+### Repositories
 
-  - Commits are transaction of changes made by an author.
-  - A commit may contain one or more changes across the files.
-  - A commit marks a new revision/version that add up to the current branch.
-
----
-
-### Anatomy of a commit
-
-<img src="img/git-show.png" alt="log-branches" width="80%"/>
+  - Repositories are basically the storage space to place the content.
+  - Repositories shall store files relevant to itself.
+  - Sometimes repositories sharing do happen, then it gets confusing.
+  - A repository is usually invisible to other repositories.
 
 ---
 
-### Anatomy of a commit
+### Repositories
 
-<img src="img/git-show-gitkraken.png" alt="log-branches" width="80%"/>
+<video width="640" height="480" controls>
+ <source src="vid/repositories.webm">
+ Your browser does not support the video tag.
+</video>
 
 ---
 
@@ -188,13 +208,14 @@ There are 10 types of Version Control System:
 
 ### Logs
 
-<img src="img/log-branches.png" alt="log-branches" width="80%"/>
-
----
-
-### Logs
-
-<img src="img/log-branches-gitkraken.png" alt="log-branches" width="80%"/>
+<table>
+    <td>
+      <img src="img/log-branches.png" alt="log-branches" width="100%"/>
+    </td>
+    <td>
+      <img src="img/log-branches-gitkraken.png" alt="log-branches" width="50%"/>
+    </td>
+</table>
 
 ---
 
