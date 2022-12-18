@@ -166,6 +166,18 @@ There are 10 types of Version Control System:
 
 ---
 
+### Anatomy of a commit
+
+<img src="img/git-show.png" alt="log-branches" width="80%"/>
+
+---
+
+### Anatomy of a commit
+
+<img src="img/git-show-gitkraken.png" alt="log-branches" width="80%"/>
+
+---
+
 ### Logs
 
   - List of commits.
@@ -194,12 +206,31 @@ There are 10 types of Version Control System:
 
 ---
 
+### Diff
+
+<img src="img/diff.png" alt="log-branches" width="80%"/>
+
+---
+
 ### Merging
 
   - Merging is an act of combining the content of two branches.
   - Modern tools usually have auto merging feature built in.
   - Manual merge is required when there are conflicts arise during merge.
   - Manual merging is a process of picking relevant changes into the branch.
+
+---
+
+# Git Workflow
+
+---
+
+### Git Workflow
+
+<video width="640" height="480" controls>
+  <source src="vid/git-workflow.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
 
 ---
 
