@@ -70,6 +70,7 @@ There are 10 types of Version Control System:
   - Logs changes in the **central** server.
   - Less **conflicts**.
   - Easy to **administer**.
+  - Usually you download just one snapshot of the work.
 
 ---
 
@@ -78,6 +79,7 @@ There are 10 types of Version Control System:
   - Keep the changes in its **local repository**.
   - Enable work to be carried out **offline**.
   - Cultivate the culture of **open source**.
+  - You download a copy of the work, several version of the work together with their history.
 
 ---
 
@@ -153,10 +155,10 @@ There are 10 types of Version Control System:
 
 <table>
   <td>
-    <img src="img/git-show.png" alt="log-branches" width="80%"/>
+    <img src="img/git-show.png" alt="log-branches" width="100%"/>
   </td>
   <td>
-    <img src="img/git-show-gitkraken.png" alt="log-branches" width="80%"/>
+    <img src="img/git-show-gitkraken.png" alt="log-branches" width="100%"/>
   </td>
 </table>
 
@@ -180,6 +182,14 @@ There are 10 types of Version Control System:
 
 ---
 
+### Commits + Branches
+
+Scan the QR code below to see how commit relates to branches.
+
+<img src="img/gitcommits.png" alt="https://fab-git-github.netlify.app/gitcommit.html" width="50%"/>
+
+---
+
 ### Repositories
 
   - Repositories are basically the storage space to place the content.
@@ -189,14 +199,6 @@ There are 10 types of Version Control System:
 
 ---
 
-### Repositories
-
-<video width="640" height="480" controls>
- <source src="vid/repositories.webm">
- Your browser does not support the video tag.
-</video>
-
----
 
 ### Logs
 
@@ -255,6 +257,36 @@ There are 10 types of Version Control System:
 
 ---
 
+### Git for Opensource
+
+Git was written with opensource culture in mind. It promote every contributor to have their own version of the repository. - Hence "distributed" version control -
+
+<img src="img/distributed.png" alt="https://fab-git-github.netlify.app/distributed.html" width="50%"/>
+
+---
+
+### Opensource
+
+I joined hacktoberfest. I need to perform 4 PRs to complete the challenge. The PRs are considered as contribution to the OpenSource community.
+
+One of the contribution I did was to CodeNerve's Let-Us-Java repository:
+
+ref: https://github.com/CodeNerve/Let-Us-Java/pull/47
+
+---
+
+### Opensource
+
+<img src="img/opensource1.png" alt="os1" width="80%"/>
+
+---
+
+### Opensource
+
+<img src="img/opensource2.png" alt="os2" width="80%"/>
+
+---
+
 # Practical use of VCS
 
 ---
@@ -287,3 +319,7 @@ There are 10 types of Version Control System:
 ---
 
 # Q&A
+
+---
+
+# AMA : Fab
