@@ -24,7 +24,7 @@ node {
     download = true
 }
 
-task start(type: NpmTask) {
+task start(type: NpmTask, dependsOn: 'npmInstall') {
     description 'parse presentation.md into html.'
     args = ['start']
 }
